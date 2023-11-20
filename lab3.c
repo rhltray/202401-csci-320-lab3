@@ -6,7 +6,7 @@
 extern int** sudoku_board;
 int* worker_validation;
 
-int** readboard(char* filename){
+int** read_board_from_file(char* filename){
     FILE *fp = NULL;
  if (fp == NULL) {
         perror("Error opening file");
