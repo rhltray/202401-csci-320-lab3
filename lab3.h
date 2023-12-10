@@ -13,7 +13,6 @@ typedef struct {
     int starting_col;
     int ending_row;
     int ending_col;
-    int is_row;
 } param_struct;
 
 /**
